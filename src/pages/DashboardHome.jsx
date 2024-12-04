@@ -8,7 +8,7 @@ const DashboardHome = () => {
 
   const fetchData = async () => {
     try {
-      const pegawaiResponse = await fetch("https://674f3ee7bb559617b26e9702.mockapi.io/pegawai");
+      const pegawaiResponse = await fetch("https://674ec4c5bb559617b26c95e9.mockapi.io/pegawai");
       const pegawaiData = await pegawaiResponse.json();
       setPegawaiCount(pegawaiData.length); 
 
